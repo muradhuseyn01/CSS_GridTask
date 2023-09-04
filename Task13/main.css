@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    height: 400px;
+    background-color: rgb(184, 228, 213);
+    padding: 12px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "c s s ."
+    "g r i d";
+}
+.box{
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 6rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: darkblue;
+}
+

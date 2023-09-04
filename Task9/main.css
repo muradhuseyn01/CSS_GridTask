@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    height: 400px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-areas: 
+    "a b c"
+    "d e f";
+}
+.box{
+    background-color: gray;
+    border-radius: 20px;
+    padding: 100px 30px;
+    font-size: 2rem;
+    color: white;
+}
